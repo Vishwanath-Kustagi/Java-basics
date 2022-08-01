@@ -23,7 +23,6 @@ public class Arraylist {
         names.add("book 10");
         names.add("book 11");
 
-
         System.out.println("Books in the library are as follows:");
         for (String name : names) {
             System.out.println(name);
