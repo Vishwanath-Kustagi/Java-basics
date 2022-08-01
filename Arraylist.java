@@ -9,8 +9,8 @@ import java.util.ArrayList;
 
 public class Arraylist {
 
-    public static void main(String[] args){
-        ArrayList<String> names=new ArrayList<>();
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
 
         names.add("book 1");
         names.add("book 2");
@@ -23,8 +23,8 @@ public class Arraylist {
         names.add("book 10");
         names.add("book 11");
 
-
-        for(String name: names){
+        System.out.println("Books in the library are as follows:");
+        for (String name : names) {
             System.out.println(name);
 
         }
