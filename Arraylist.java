@@ -19,6 +19,7 @@ public class Arraylist {
         names.add("book 5");
         names.add("book 6");
         names.add("book 7");
+        names.add("book 8");
 
 
         for(String name: names){
